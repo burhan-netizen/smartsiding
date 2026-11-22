@@ -63,6 +63,7 @@ header.scrolled{box-shadow:0 10px 30px -18px rgba(0,0,0,.45)}
 .hbar{display:flex;align-items:center;gap:22px;height:80px;transition:height .3s var(--ease)}
 header.scrolled .hbar{height:66px}
 .brand{display:flex;align-items:center;text-decoration:none;flex:none}
+.tlogo{width:auto;display:block;transition:height .3s}.tflogo{height:110px;width:auto;display:block}.tfpill{display:inline-block;background:#fff;border-radius:18px;padding:14px 18px}.fgrid .tflogo,.fgrid .tfpill{margin-bottom:18px}
 .brandrow{display:flex;align-items:center;gap:12px}.lbadge{width:46px;height:46px;border-radius:12px;object-fit:cover;flex:none;box-shadow:0 0 0 1px rgba(0,0,0,.08)}.lbadge.round{border-radius:50%}.lbadge.big{width:84px;height:84px;border-radius:20px}.lbadge.round.big{border-radius:50%}header.scrolled .lbadge{width:40px;height:40px}.lpill{display:inline-flex;align-items:center;background:#fff;border-radius:12px;padding:7px 12px;box-shadow:0 0 0 1px rgba(0,0,0,.08)}.lpill img{height:34px;width:auto}.lpill.big{padding:12px 18px}.lpill.big img{height:56px}
 .brandimg{height:56px;width:auto;transition:height .3s var(--ease)}
 header.scrolled .brandimg{height:45px}
@@ -321,7 +322,7 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
 <body>
 <div class="demo" role="note">Concept website prepared for Smart Siding &amp; Construction by <a href="https://magolabs.in">Mago Labs</a>. Not the live site.</div>
 <div class="prog" aria-hidden="true"></div>
-<header id="hdr" class="hdr-light"><div class="wrap hbar"><a class="brand" href="#top" aria-label="Smart Siding &amp; Construction, back to top"><span class="brandrow"><img class="lbadge" src="img/badge.webp" alt="Smart Siding &amp; Construction logo" width="160" height="160"><span class="wordmark"><b>SMART SIDING</b><small>&amp; Construction</small></span></span></a>
+<header id="hdr" class="hdr-dark"><div class="wrap hbar"><a class="brand" href="#top" aria-label="Smart Siding &amp; Construction, back to top"><img class="tlogo" src="img/logo-smart.webp" alt="Smart Siding &amp; Construction logo" width="600" height="594" style="height:76px"></a>
 <nav aria-label="Main"><a href="#services">Services</a><a href="#how">How we work</a><a href="#work">Projects</a><a href="#quote">Free quote</a></nav>
 <a class="btn btn-a hcall magnetic" href="#quote"><span>Get a free quote</span></a>
 </div></header><main id="top">
@@ -381,7 +382,7 @@ footer ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
 <form id="qf" class="rv" novalidate><h3>Request a free quote</h3><div><label for="f-name">Your name</label><input id="f-name" name="name" autocomplete="name" required><p class="err">Please add your name.</p></div><div><label for="f-phone">Phone</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required><p class="err">Please add a phone number so we can call you back.</p></div><div><label for="f-loc">City</label><input id="f-loc" name="loc" autocomplete="address-level2"></div><div><label for="f-job">Project type</label><select id="f-job" name="job"><option>ACM panels</option><option>Metal siding</option><option>Wood siding</option><option>Soffit, fascia, eavestrough</option><option>Fencing</option><option>Commercial facade</option><option>Something else</option></select></div><div class="full"><label for="f-msg">Tell us about the job</label><textarea id="f-msg" name="msg"></textarea></div><div class="full" style="display:flex;flex-wrap:wrap;gap:14px;align-items:center"><button class="btn btn-a" type="submit">Get a free quote</button><span class="formnote">No obligation.</span></div><p class="ok" id="ok" role="status">Thanks! This is a concept site, so nothing was sent. On the live site your request goes straight to Smart Siding &amp; Construction.</p></form></div></section>
 <div class="wrap"><div class="final rv"><div><h2>Give your building the exterior it deserves.</h2><p>Residential and commercial siding across Ontario.</p></div><div class="ctas"><a class="btn btn-dk" href="#quote">Get a free quote</a></div></div></div>
 <footer id="foot"><div class="foot-aurora" aria-hidden="true"></div><div class="foot-giant" aria-hidden="true" style="--gsz:26vw">SMART</div><div class="wrap"><div class="fgrid"><div>
-<span class="brandrow"><img class="lbadge big" src="img/badge.webp" alt="Smart Siding &amp; Construction logo" width="160" height="160"><span class="wordmark"><b>SMART SIDING</b><small>&amp; Construction</small></span></span>
+<img class="tflogo" src="img/logo-smart.webp" alt="Smart Siding &amp; Construction logo" width="600" height="594">
 <p>ACM panels, metal and wood siding, soffit, fascia and eavestrough for homes and commercial buildings across Ontario.</p></div>
 <div><h4>Services</h4><ul><li>ACM panels</li><li>Metal siding</li><li>Wood siding</li><li>Soffit and fascia</li><li>Eavestrough</li><li>Fencing</li></ul></div>
 <div><h4>Connect</h4><ul><li><a href="#quote">Free quote</a></li><li><a href="https://www.instagram.com/smart_s_construction/">Instagram</a></li><li>Ontario, Canada</li></ul></div>
